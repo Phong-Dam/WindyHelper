@@ -1,0 +1,324 @@
+﻿  Button.cpp
+  Chat.cpp
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,30): error C2664: 'HMODULE GetModuleHandleW(LPCWSTR)': cannot convert argument 1 from 'const char [9]' to 'LPCWSTR'
+  (compiling source file 'Button.cpp')
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,46):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\libloaderapi.h(244,1):
+  see declaration of 'GetModuleHandleW'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,30):
+  while trying to match the argument list '(const char [9])'
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,23): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+  (compiling source file 'Button.cpp')
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,23): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+  (compiling source file 'Button.cpp')
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Button.cpp(11,22): warning C4312: 'type cast': conversion from 'DWORD' to 'Button::sub_6F13D870' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,30): error C2664: 'HMODULE GetModuleHandleW(LPCWSTR)': cannot convert argument 1 from 'const char [9]' to 'LPCWSTR'
+  (compiling source file 'Chat.cpp')
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,46):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\libloaderapi.h(244,1):
+  see declaration of 'GetModuleHandleW'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,30):
+  while trying to match the argument list '(const char [9])'
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,23): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+  (compiling source file 'Chat.cpp')
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,23): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+  (compiling source file 'Chat.cpp')
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Chat.cpp(5,22): warning C4312: 'type cast': conversion from 'DWORD' to 'pGameChatSetState' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Chat.cpp(9,28): warning C4312: 'type cast': conversion from 'DWORD' to 'unsigned char **' of greater size
+  Game.cpp
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,30): error C2664: 'HMODULE GetModuleHandleW(LPCWSTR)': cannot convert argument 1 from 'const char [9]' to 'LPCWSTR'
+  (compiling source file 'Game.cpp')
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,46):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\libloaderapi.h(244,1):
+  see declaration of 'GetModuleHandleW'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,30):
+  while trying to match the argument list '(const char [9])'
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,23): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+  (compiling source file 'Game.cpp')
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,23): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+  (compiling source file 'Game.cpp')
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Game.cpp(6,21): warning C4312: 'type cast': conversion from 'DWORD' to 'GAME_GetPtrList_t (__cdecl *)' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Game.cpp(7,16): warning C4312: 'type cast': conversion from 'DWORD' to 'GAME_Print_t (__cdecl *)' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Game.cpp(10,11): warning C4312: 'type cast': conversion from 'DWORD' to 'int *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Game.cpp(10,46): warning C4312: 'type cast': conversion from 'DWORD' to 'int *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Game.cpp(14,11): warning C4312: 'type cast': conversion from 'DWORD' to 'bool *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Game.cpp(18,12): warning C4312: 'type cast': conversion from 'DWORD' to 'int *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Game.cpp(29,18): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Game.cpp(36,10): warning C4312: 'type cast': conversion from 'DWORD' to 'bool *' of greater size
+  Input.cpp
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,30): error C2664: 'HMODULE GetModuleHandleW(LPCWSTR)': cannot convert argument 1 from 'const char [9]' to 'LPCWSTR'
+  (compiling source file 'Input.cpp')
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,46):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\libloaderapi.h(244,1):
+  see declaration of 'GetModuleHandleW'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,30):
+  while trying to match the argument list '(const char [9])'
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,23): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+  (compiling source file 'Input.cpp')
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,23): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+  (compiling source file 'Input.cpp')
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(20,10): warning C4312: 'reinterpret_cast': conversion from 'DWORD' to 'war3::CGameUI **' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(82,22): warning C4312: 'type cast': conversion from 'int' to 'int *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(84,8): warning C4312: 'type cast': conversion from 'int' to 'int *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(84,49): warning C4312: 'type cast': conversion from 'int' to 'int *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(84,41): warning C4312: 'type cast': conversion from 'int' to 'int *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(89,38): warning C4312: 'type cast': conversion from 'const DWORD' to 'unsigned char *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(110,28): warning C4312: 'type cast': conversion from 'DWORD' to 'unsigned char **' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(138,28): warning C4312: 'type cast': conversion from 'DWORD' to 'unsigned char **' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(201,29): warning C4312: 'type cast': conversion from 'int' to 'const char *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(202,28): warning C4312: 'type cast': conversion from 'int' to 'unsigned char **' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(212,30): warning C4312: 'type cast': conversion from 'int' to 'float *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(213,31): warning C4312: 'type cast': conversion from 'int' to 'int *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(216,31): warning C4312: 'type cast': conversion from 'int' to 'float *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(225,35): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(260,18): error C2664: 'bool ProfileFetchBool(LPCTSTR,LPCTSTR,bool)': cannot convert argument 1 from 'const char [13]' to 'LPCTSTR'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(260,35):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Profile.h(11,6):
+  see declaration of 'ProfileFetchBool'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(260,18):
+  while trying to match the argument list '(const char [13], const char [7], bool)'
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(261,17): error C2664: 'bool ProfileFetchBool(LPCTSTR,LPCTSTR,bool)': cannot convert argument 1 from 'const char [12]' to 'LPCTSTR'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(261,34):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Profile.h(11,6):
+  see declaration of 'ProfileFetchBool'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(261,17):
+  while trying to match the argument list '(const char [12], const char [7], bool)'
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(262,17): error C2664: 'bool ProfileFetchBool(LPCTSTR,LPCTSTR,bool)': cannot convert argument 1 from 'const char [5]' to 'LPCTSTR'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(262,34):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Profile.h(11,6):
+  see declaration of 'ProfileFetchBool'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(262,17):
+  while trying to match the argument list '(const char [5], const char [7], bool)'
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(265,12): error C2664: 'int ProfileFetchInt(LPCTSTR,LPCTSTR,int)': cannot convert argument 1 from 'const char [13]' to 'LPCTSTR'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(265,28):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Profile.h(7,5):
+  see declaration of 'ProfileFetchInt'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(265,12):
+  while trying to match the argument list '(const char [13], const _Elem *, int)'
+          with
+          [
+              _Elem=char
+          ]
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(266,14): error C2664: 'int ProfileFetchInt(LPCTSTR,LPCTSTR,int)': cannot convert argument 1 from 'const char [5]' to 'LPCTSTR'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(266,30):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Profile.h(7,5):
+  see declaration of 'ProfileFetchInt'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(266,14):
+  while trying to match the argument list '(const char [5], const _Elem *, int)'
+          with
+          [
+              _Elem=char
+          ]
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(269,12): error C2664: 'int ProfileFetchInt(LPCTSTR,LPCTSTR,int)': cannot convert argument 1 from 'const char [12]' to 'LPCTSTR'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(269,28):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Profile.h(7,5):
+  see declaration of 'ProfileFetchInt'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(269,12):
+  while trying to match the argument list '(const char [12], const _Elem *, int)'
+          with
+          [
+              _Elem=char
+          ]
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(271,21): error C2664: 'bool ProfileFetchBool(LPCTSTR,LPCTSTR,bool)': cannot convert argument 1 from 'const char [11]' to 'LPCTSTR'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(271,38):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Profile.h(11,6):
+  see declaration of 'ProfileFetchBool'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(271,21):
+  while trying to match the argument list '(const char [11], const _Elem *, int)'
+          with
+          [
+              _Elem=char
+          ]
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(272,14): error C2664: 'bool ProfileFetchBool(LPCTSTR,LPCTSTR,bool)': cannot convert argument 1 from 'const char [11]' to 'LPCTSTR'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(272,31):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Profile.h(11,6):
+  see declaration of 'ProfileFetchBool'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(272,14):
+  while trying to match the argument list '(const char [11], const _Elem *, int)'
+          with
+          [
+              _Elem=char
+          ]
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(389,19): warning C4312: 'type cast': conversion from 'DWORD' to 'InputProc' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(393,32): warning C4312: 'type cast': conversion from 'DWORD' to 'c_SimpleButtonClickEvent' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Input.cpp(397,31): warning C4312: 'type cast': conversion from 'DWORD' to 'pWc3ControlClickButton' of greater size
+  Jass.cpp
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,30): error C2664: 'HMODULE GetModuleHandleW(LPCWSTR)': cannot convert argument 1 from 'const char [9]' to 'LPCWSTR'
+  (compiling source file 'Jass.cpp')
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,46):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\libloaderapi.h(244,1):
+  see declaration of 'GetModuleHandleW'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,30):
+  while trying to match the argument list '(const char [9])'
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,23): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+  (compiling source file 'Jass.cpp')
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,23): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+  (compiling source file 'Jass.cpp')
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(23,20): warning C4311: 'type cast': pointer truncation from 'int *' to 'int'
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(23,20): warning C4302: 'type cast': truncation from 'int *' to 'int'
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(24,9): warning C4312: 'type cast': conversion from 'int' to 'BYTE *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(28,14): warning C4312: 'type cast': conversion from 'int' to 'BYTE *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(32,14): warning C4312: 'type cast': conversion from 'int' to 'BYTE *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(36,14): warning C4312: 'type cast': conversion from 'int' to 'BYTE *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(48,23): warning C4312: 'type cast': conversion from 'DWORD' to 'Jass::p_GetTypeInfoAddr' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(49,20): warning C4312: 'type cast': conversion from 'DWORD' to 'Jass::p_GetPlayerName' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(50,20): warning C4312: 'type cast': conversion from 'DWORD' to 'Jass::pGetUnitAbility' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(51,19): warning C4312: 'type cast': conversion from 'DWORD' to 'Jass::p_GetUnitLevel' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(58,3): warning C4312: 'type cast': conversion from 'int' to 'LPVOID' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(89,12): warning C4312: 'type cast': conversion from 'int' to 'int *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(100,21): warning C4312: 'type cast': conversion from 'int' to 'int *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(105,28): warning C4312: 'type cast': conversion from 'int' to 'int *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(105,20): warning C4312: 'type cast': conversion from 'int' to 'int *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(105,12): warning C4312: 'type cast': conversion from 'int' to 'char *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(117,45): warning C4311: 'type cast': pointer truncation from 'unit' to 'int'
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(117,45): warning C4302: 'type cast': truncation from 'unit' to 'int'
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(129,11): error C2440: 'return': cannot convert from 'const char [5]' to 'char *'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(129,11):
+  Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(154,15): warning C4312: 'type cast': conversion from 'int' to 'int *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(168,20): warning C4312: 'type cast': conversion from 'int' to 'short *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(179,18): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(180,18): warning C4312: 'type cast': conversion from 'int' to 'short *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(192,23): warning C4312: 'type cast': conversion from 'int' to 'int *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(195,13): warning C4312: 'type cast': conversion from 'int' to 'unsigned char **' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(205,23): warning C4312: 'type cast': conversion from 'int' to 'int *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(208,13): warning C4312: 'type cast': conversion from 'int' to 'unsigned char **' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(223,23): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(223,23): warning C4302: 'type cast': truncation from 'void *' to 'int'
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(224,22): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(224,22): warning C4302: 'type cast': truncation from 'void *' to 'int'
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(227,18): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(229,34): warning C4312: 'type cast': conversion from 'int' to 'unsigned int *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(232,19): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(233,14): warning C4312: 'type cast': conversion from 'int' to 'int *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(242,18): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(243,13): warning C4312: 'type cast': conversion from 'int' to 'int *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(253,3): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(255,4): error C2065: 'PUSH': undeclared identifier
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(255,9): error C2146: syntax error: missing ';' before identifier 'statNum'
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(256,4): error C2065: 'LEA': undeclared identifier
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(256,8): error C2146: syntax error: missing ';' before identifier 'EAX'
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(256,8): error C2065: 'EAX': undeclared identifier
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(257,4): error C2065: 'PUSH': undeclared identifier
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(257,9): error C2146: syntax error: missing ';' before identifier 'EAX'
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(257,9): error C2065: 'EAX': undeclared identifier
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(258,4): error C2065: 'MOV': undeclared identifier
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(258,8): error C2146: syntax error: missing ';' before identifier 'ECX'
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(258,8): error C2065: 'ECX': undeclared identifier
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(259,4): error C2065: 'CALL': undeclared identifier
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(259,9): error C2146: syntax error: missing ';' before identifier '_GetFloatStat'
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(270,30): warning C4312: 'type cast': conversion from 'int' to 'int *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(273,27): warning C4312: 'type cast': conversion from 'int' to 'int (__cdecl *)(unsigned char *)' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(307,12): warning C4305: 'return': truncation from 'int' to 'bool'
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(309,21): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(309,21): warning C4302: 'type cast': truncation from 'void *' to 'int'
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(310,17): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(312,27): warning C4312: 'type cast': conversion from 'int' to 'unsigned int *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(316,12): warning C4305: 'return': truncation from 'int' to 'bool'
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(320,28): warning C4312: 'type cast': conversion from 'DWORD' to 'int *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(323,24): warning C4312: 'type cast': conversion from 'int' to 'int *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(326,23): warning C4312: 'type cast': conversion from 'int' to 'int *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(329,37): warning C4312: 'type cast': conversion from 'int' to 'int *' of greater size
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Jass.cpp(329,19): warning C4312: 'type cast': conversion from 'int' to 'unsigned char **' of greater size
+  main.cpp
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,30): error C2664: 'HMODULE GetModuleHandleW(LPCWSTR)': cannot convert argument 1 from 'const char [9]' to 'LPCWSTR'
+  (compiling source file 'main.cpp')
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,46):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\libloaderapi.h(244,1):
+  see declaration of 'GetModuleHandleW'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,30):
+  while trying to match the argument list '(const char [9])'
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,23): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+  (compiling source file 'main.cpp')
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,23): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+  (compiling source file 'main.cpp')
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\main.cpp(12,16): error C2664: 'DWORD GetFileVersionInfoSizeW(LPCWSTR,LPDWORD)': cannot convert argument 1 from 'const char [9]' to 'LPCWSTR'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\main.cpp(12,39):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winver.h(124,1):
+  see declaration of 'GetFileVersionInfoSizeW'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\main.cpp(12,16):
+  while trying to match the argument list '(const char [9], DWORD *)'
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\main.cpp(15,2): error C2664: 'BOOL GetFileVersionInfoW(LPCWSTR,DWORD,DWORD,LPVOID)': cannot convert argument 1 from 'const char [9]' to 'LPCWSTR'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\main.cpp(15,21):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winver.h(146,1):
+  see declaration of 'GetFileVersionInfoW'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\main.cpp(15,2):
+  while trying to match the argument list '(const char [9], DWORD, DWORD, LPVOID)'
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\main.cpp(19,2): error C2664: 'BOOL VerQueryValueW(LPCVOID,LPCWSTR,LPVOID *,PUINT)': cannot convert argument 2 from 'const char [2]' to 'LPCWSTR'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\main.cpp(19,24):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winver.h(233,1):
+  see declaration of 'VerQueryValueW'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\main.cpp(19,2):
+  while trying to match the argument list '(LPVOID, const char [2], LPVOID *, UINT *)'
+  
+  Profile.cpp
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,30): error C2664: 'HMODULE GetModuleHandleW(LPCWSTR)': cannot convert argument 1 from 'const char [9]' to 'LPCWSTR'
+  (compiling source file 'Profile.cpp')
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,46):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\libloaderapi.h(244,1):
+  see declaration of 'GetModuleHandleW'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,30):
+  while trying to match the argument list '(const char [9])'
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,23): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+  (compiling source file 'Profile.cpp')
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Init.h(6,23): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+  (compiling source file 'Profile.cpp')
+  
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Profile.cpp(110,2): error C2664: 'void Profile_Init(LPCTSTR)': cannot convert argument 1 from 'char [260]' to 'LPCTSTR'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Profile.cpp(110,15):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Profile.cpp(77,6):
+  see declaration of 'Profile_Init'
+  C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\WindyHelper\Profile.cpp(110,2):
+  while trying to match the argument list '(char [260])'
+  
+  Generating Code...
