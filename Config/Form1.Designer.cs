@@ -28,6 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.shop_4 = new System.Windows.Forms.Button();
+            this.shop_5 = new System.Windows.Forms.Button();
+            this.shop_6 = new System.Windows.Forms.Button();
+            this.shop_7 = new System.Windows.Forms.Button();
+            this.shop_0 = new System.Windows.Forms.Button();
+            this.shop_1 = new System.Windows.Forms.Button();
+            this.shop_2 = new System.Windows.Forms.Button();
+            this.shop_3 = new System.Windows.Forms.Button();
+            this.shop_8 = new System.Windows.Forms.Button();
+            this.shop_9 = new System.Windows.Forms.Button();
+            this.shop_10 = new System.Windows.Forms.Button();
+            this.shop_11 = new System.Windows.Forms.Button();
+            this.cb_Shop_Enable = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.skill_4 = new System.Windows.Forms.Button();
             this.cb_skillqc_4 = new System.Windows.Forms.CheckBox();
@@ -65,19 +81,8 @@
             this.skill_11 = new System.Windows.Forms.Button();
             this.cb_skillqc_11 = new System.Windows.Forms.CheckBox();
             this.cb_skillsc_11 = new System.Windows.Forms.CheckBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.shop_4 = new System.Windows.Forms.Button();
-            this.shop_5 = new System.Windows.Forms.Button();
-            this.shop_6 = new System.Windows.Forms.Button();
-            this.shop_7 = new System.Windows.Forms.Button();
-            this.shop_0 = new System.Windows.Forms.Button();
-            this.shop_1 = new System.Windows.Forms.Button();
-            this.shop_2 = new System.Windows.Forms.Button();
-            this.shop_3 = new System.Windows.Forms.Button();
-            this.shop_8 = new System.Windows.Forms.Button();
-            this.shop_9 = new System.Windows.Forms.Button();
-            this.shop_10 = new System.Windows.Forms.Button();
-            this.shop_11 = new System.Windows.Forms.Button();
+            this.cb_Skill_Enable = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.item_2 = new System.Windows.Forms.Button();
             this.cb_itemqc_2 = new System.Windows.Forms.CheckBox();
@@ -97,15 +102,184 @@
             this.item_5 = new System.Windows.Forms.Button();
             this.cb_itemqc_5 = new System.Windows.Forms.CheckBox();
             this.cb_itemsc_5 = new System.Windows.Forms.CheckBox();
-            this.cb_Skill_Enable = new System.Windows.Forms.CheckBox();
             this.cb_Item_Enable = new System.Windows.Forms.CheckBox();
-            this.cb_Shop_Enable = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.groupBox1.SuspendLayout();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.tabControl1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.groupBox2);
+            this.tabPage1.Controls.Add(this.checkBox2);
+            this.tabPage1.Controls.Add(this.groupBox1);
+            this.tabPage1.Controls.Add(this.checkBox1);
+            this.tabPage1.Controls.Add(this.groupBox3);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(982, 467);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Hotkey";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.cb_Shop_Enable);
+            this.groupBox3.Controls.Add(this.shop_11);
+            this.groupBox3.Controls.Add(this.shop_10);
+            this.groupBox3.Controls.Add(this.shop_9);
+            this.groupBox3.Controls.Add(this.shop_8);
+            this.groupBox3.Controls.Add(this.shop_3);
+            this.groupBox3.Controls.Add(this.shop_2);
+            this.groupBox3.Controls.Add(this.shop_1);
+            this.groupBox3.Controls.Add(this.shop_0);
+            this.groupBox3.Controls.Add(this.shop_7);
+            this.groupBox3.Controls.Add(this.shop_6);
+            this.groupBox3.Controls.Add(this.shop_5);
+            this.groupBox3.Controls.Add(this.shop_4);
+            this.groupBox3.Location = new System.Drawing.Point(594, 20);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(355, 371);
+            this.groupBox3.TabIndex = 2;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Shop";
+            // 
+            // shop_4
+            // 
+            this.shop_4.Location = new System.Drawing.Point(18, 157);
+            this.shop_4.Name = "shop_4";
+            this.shop_4.Size = new System.Drawing.Size(75, 75);
+            this.shop_4.TabIndex = 0;
+            this.shop_4.UseVisualStyleBackColor = true;
+            this.shop_4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.shop_4_KeyDown);
+            // 
+            // shop_5
+            // 
+            this.shop_5.Location = new System.Drawing.Point(99, 157);
+            this.shop_5.Name = "shop_5";
+            this.shop_5.Size = new System.Drawing.Size(75, 75);
+            this.shop_5.TabIndex = 6;
+            this.shop_5.UseVisualStyleBackColor = true;
+            this.shop_5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.shop_5_KeyDown);
+            // 
+            // shop_6
+            // 
+            this.shop_6.Location = new System.Drawing.Point(180, 157);
+            this.shop_6.Name = "shop_6";
+            this.shop_6.Size = new System.Drawing.Size(75, 75);
+            this.shop_6.TabIndex = 9;
+            this.shop_6.UseVisualStyleBackColor = true;
+            this.shop_6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.shop_6_KeyDown);
+            // 
+            // shop_7
+            // 
+            this.shop_7.Location = new System.Drawing.Point(261, 157);
+            this.shop_7.Name = "shop_7";
+            this.shop_7.Size = new System.Drawing.Size(75, 75);
+            this.shop_7.TabIndex = 12;
+            this.shop_7.UseVisualStyleBackColor = true;
+            this.shop_7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.shop_7_KeyDown);
+            // 
+            // shop_0
+            // 
+            this.shop_0.Location = new System.Drawing.Point(18, 56);
+            this.shop_0.Name = "shop_0";
+            this.shop_0.Size = new System.Drawing.Size(75, 75);
+            this.shop_0.TabIndex = 15;
+            this.shop_0.UseVisualStyleBackColor = true;
+            this.shop_0.KeyDown += new System.Windows.Forms.KeyEventHandler(this.shop_0_KeyDown);
+            // 
+            // shop_1
+            // 
+            this.shop_1.Location = new System.Drawing.Point(99, 56);
+            this.shop_1.Name = "shop_1";
+            this.shop_1.Size = new System.Drawing.Size(75, 75);
+            this.shop_1.TabIndex = 18;
+            this.shop_1.UseVisualStyleBackColor = true;
+            this.shop_1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.shop_1_KeyDown);
+            // 
+            // shop_2
+            // 
+            this.shop_2.Location = new System.Drawing.Point(180, 56);
+            this.shop_2.Name = "shop_2";
+            this.shop_2.Size = new System.Drawing.Size(75, 75);
+            this.shop_2.TabIndex = 21;
+            this.shop_2.UseVisualStyleBackColor = true;
+            this.shop_2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.shop_2_KeyDown);
+            // 
+            // shop_3
+            // 
+            this.shop_3.Location = new System.Drawing.Point(261, 56);
+            this.shop_3.Name = "shop_3";
+            this.shop_3.Size = new System.Drawing.Size(75, 75);
+            this.shop_3.TabIndex = 24;
+            this.shop_3.UseVisualStyleBackColor = true;
+            this.shop_3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.shop_3_KeyDown);
+            // 
+            // shop_8
+            // 
+            this.shop_8.Location = new System.Drawing.Point(18, 261);
+            this.shop_8.Name = "shop_8";
+            this.shop_8.Size = new System.Drawing.Size(75, 75);
+            this.shop_8.TabIndex = 27;
+            this.shop_8.UseVisualStyleBackColor = true;
+            this.shop_8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.shop_8_KeyDown);
+            // 
+            // shop_9
+            // 
+            this.shop_9.Location = new System.Drawing.Point(99, 261);
+            this.shop_9.Name = "shop_9";
+            this.shop_9.Size = new System.Drawing.Size(75, 75);
+            this.shop_9.TabIndex = 30;
+            this.shop_9.UseVisualStyleBackColor = true;
+            this.shop_9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.shop_9_KeyDown);
+            // 
+            // shop_10
+            // 
+            this.shop_10.Location = new System.Drawing.Point(180, 261);
+            this.shop_10.Name = "shop_10";
+            this.shop_10.Size = new System.Drawing.Size(75, 75);
+            this.shop_10.TabIndex = 33;
+            this.shop_10.UseVisualStyleBackColor = true;
+            this.shop_10.KeyDown += new System.Windows.Forms.KeyEventHandler(this.shop_10_KeyDown);
+            // 
+            // shop_11
+            // 
+            this.shop_11.Location = new System.Drawing.Point(261, 261);
+            this.shop_11.Name = "shop_11";
+            this.shop_11.Size = new System.Drawing.Size(75, 75);
+            this.shop_11.TabIndex = 36;
+            this.shop_11.UseVisualStyleBackColor = true;
+            this.shop_11.KeyDown += new System.Windows.Forms.KeyEventHandler(this.shop_11_KeyDown);
+            // 
+            // cb_Shop_Enable
+            // 
+            this.cb_Shop_Enable.AutoSize = true;
+            this.cb_Shop_Enable.Location = new System.Drawing.Point(21, 30);
+            this.cb_Shop_Enable.Name = "cb_Shop_Enable";
+            this.cb_Shop_Enable.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.cb_Shop_Enable.Size = new System.Drawing.Size(72, 20);
+            this.cb_Shop_Enable.TabIndex = 40;
+            this.cb_Shop_Enable.Text = "Enable";
+            this.cb_Shop_Enable.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.cb_Shop_Enable.UseVisualStyleBackColor = true;
+            this.cb_Shop_Enable.CheckedChanged += new System.EventHandler(this.cb_Shop_Enable_CheckedChanged);
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Enabled = false;
+            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.Location = new System.Drawing.Point(849, 404);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(100, 24);
+            this.checkBox1.TabIndex = 3;
+            this.checkBox1.Text = "Self Cast";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
@@ -146,7 +320,7 @@
             this.groupBox1.Controls.Add(this.cb_skillsc_4);
             this.groupBox1.Controls.Add(this.cb_skillqc_4);
             this.groupBox1.Controls.Add(this.skill_4);
-            this.groupBox1.Location = new System.Drawing.Point(38, 41);
+            this.groupBox1.Location = new System.Drawing.Point(35, 17);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(355, 374);
             this.groupBox1.TabIndex = 0;
@@ -501,135 +675,31 @@
             this.cb_skillsc_11.UseVisualStyleBackColor = true;
             this.cb_skillsc_11.CheckedChanged += new System.EventHandler(this.cb_skillsc_11_CheckedChanged);
             // 
-            // groupBox3
+            // cb_Skill_Enable
             // 
-            this.groupBox3.Controls.Add(this.cb_Shop_Enable);
-            this.groupBox3.Controls.Add(this.shop_11);
-            this.groupBox3.Controls.Add(this.shop_10);
-            this.groupBox3.Controls.Add(this.shop_9);
-            this.groupBox3.Controls.Add(this.shop_8);
-            this.groupBox3.Controls.Add(this.shop_3);
-            this.groupBox3.Controls.Add(this.shop_2);
-            this.groupBox3.Controls.Add(this.shop_1);
-            this.groupBox3.Controls.Add(this.shop_0);
-            this.groupBox3.Controls.Add(this.shop_7);
-            this.groupBox3.Controls.Add(this.shop_6);
-            this.groupBox3.Controls.Add(this.shop_5);
-            this.groupBox3.Controls.Add(this.shop_4);
-            this.groupBox3.Location = new System.Drawing.Point(597, 44);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(355, 371);
-            this.groupBox3.TabIndex = 2;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Shop";
+            this.cb_Skill_Enable.AutoSize = true;
+            this.cb_Skill_Enable.Location = new System.Drawing.Point(24, 33);
+            this.cb_Skill_Enable.Name = "cb_Skill_Enable";
+            this.cb_Skill_Enable.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.cb_Skill_Enable.Size = new System.Drawing.Size(72, 20);
+            this.cb_Skill_Enable.TabIndex = 39;
+            this.cb_Skill_Enable.Text = "Enable";
+            this.cb_Skill_Enable.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.cb_Skill_Enable.UseVisualStyleBackColor = true;
+            this.cb_Skill_Enable.CheckedChanged += new System.EventHandler(this.cb_Skill_Enable_CheckedChanged);
             // 
-            // shop_4
+            // checkBox2
             // 
-            this.shop_4.Location = new System.Drawing.Point(18, 157);
-            this.shop_4.Name = "shop_4";
-            this.shop_4.Size = new System.Drawing.Size(75, 75);
-            this.shop_4.TabIndex = 0;
-            this.shop_4.UseVisualStyleBackColor = true;
-            this.shop_4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.shop_4_KeyDown);
-            // 
-            // shop_5
-            // 
-            this.shop_5.Location = new System.Drawing.Point(99, 157);
-            this.shop_5.Name = "shop_5";
-            this.shop_5.Size = new System.Drawing.Size(75, 75);
-            this.shop_5.TabIndex = 6;
-            this.shop_5.UseVisualStyleBackColor = true;
-            this.shop_5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.shop_5_KeyDown);
-            // 
-            // shop_6
-            // 
-            this.shop_6.Location = new System.Drawing.Point(180, 157);
-            this.shop_6.Name = "shop_6";
-            this.shop_6.Size = new System.Drawing.Size(75, 75);
-            this.shop_6.TabIndex = 9;
-            this.shop_6.UseVisualStyleBackColor = true;
-            this.shop_6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.shop_6_KeyDown);
-            // 
-            // shop_7
-            // 
-            this.shop_7.Location = new System.Drawing.Point(261, 157);
-            this.shop_7.Name = "shop_7";
-            this.shop_7.Size = new System.Drawing.Size(75, 75);
-            this.shop_7.TabIndex = 12;
-            this.shop_7.UseVisualStyleBackColor = true;
-            this.shop_7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.shop_7_KeyDown);
-            // 
-            // shop_0
-            // 
-            this.shop_0.Location = new System.Drawing.Point(18, 56);
-            this.shop_0.Name = "shop_0";
-            this.shop_0.Size = new System.Drawing.Size(75, 75);
-            this.shop_0.TabIndex = 15;
-            this.shop_0.UseVisualStyleBackColor = true;
-            this.shop_0.KeyDown += new System.Windows.Forms.KeyEventHandler(this.shop_0_KeyDown);
-            // 
-            // shop_1
-            // 
-            this.shop_1.Location = new System.Drawing.Point(99, 56);
-            this.shop_1.Name = "shop_1";
-            this.shop_1.Size = new System.Drawing.Size(75, 75);
-            this.shop_1.TabIndex = 18;
-            this.shop_1.UseVisualStyleBackColor = true;
-            this.shop_1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.shop_1_KeyDown);
-            // 
-            // shop_2
-            // 
-            this.shop_2.Location = new System.Drawing.Point(180, 56);
-            this.shop_2.Name = "shop_2";
-            this.shop_2.Size = new System.Drawing.Size(75, 75);
-            this.shop_2.TabIndex = 21;
-            this.shop_2.UseVisualStyleBackColor = true;
-            this.shop_2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.shop_2_KeyDown);
-            // 
-            // shop_3
-            // 
-            this.shop_3.Location = new System.Drawing.Point(261, 56);
-            this.shop_3.Name = "shop_3";
-            this.shop_3.Size = new System.Drawing.Size(75, 75);
-            this.shop_3.TabIndex = 24;
-            this.shop_3.UseVisualStyleBackColor = true;
-            this.shop_3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.shop_3_KeyDown);
-            // 
-            // shop_8
-            // 
-            this.shop_8.Location = new System.Drawing.Point(18, 261);
-            this.shop_8.Name = "shop_8";
-            this.shop_8.Size = new System.Drawing.Size(75, 75);
-            this.shop_8.TabIndex = 27;
-            this.shop_8.UseVisualStyleBackColor = true;
-            this.shop_8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.shop_8_KeyDown);
-            // 
-            // shop_9
-            // 
-            this.shop_9.Location = new System.Drawing.Point(99, 261);
-            this.shop_9.Name = "shop_9";
-            this.shop_9.Size = new System.Drawing.Size(75, 75);
-            this.shop_9.TabIndex = 30;
-            this.shop_9.UseVisualStyleBackColor = true;
-            this.shop_9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.shop_9_KeyDown);
-            // 
-            // shop_10
-            // 
-            this.shop_10.Location = new System.Drawing.Point(180, 261);
-            this.shop_10.Name = "shop_10";
-            this.shop_10.Size = new System.Drawing.Size(75, 75);
-            this.shop_10.TabIndex = 33;
-            this.shop_10.UseVisualStyleBackColor = true;
-            this.shop_10.KeyDown += new System.Windows.Forms.KeyEventHandler(this.shop_10_KeyDown);
-            // 
-            // shop_11
-            // 
-            this.shop_11.Location = new System.Drawing.Point(261, 261);
-            this.shop_11.Name = "shop_11";
-            this.shop_11.Size = new System.Drawing.Size(75, 75);
-            this.shop_11.TabIndex = 36;
-            this.shop_11.UseVisualStyleBackColor = true;
-            this.shop_11.KeyDown += new System.Windows.Forms.KeyEventHandler(this.shop_11_KeyDown);
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Enabled = false;
+            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox2.Location = new System.Drawing.Point(713, 404);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.checkBox2.Size = new System.Drawing.Size(114, 24);
+            this.checkBox2.TabIndex = 4;
+            this.checkBox2.Text = "Quick Cast";
+            this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
@@ -652,7 +722,7 @@
             this.groupBox2.Controls.Add(this.cb_itemsc_2);
             this.groupBox2.Controls.Add(this.cb_itemqc_2);
             this.groupBox2.Controls.Add(this.item_2);
-            this.groupBox2.Location = new System.Drawing.Point(399, 44);
+            this.groupBox2.Location = new System.Drawing.Point(396, 20);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(192, 371);
             this.groupBox2.TabIndex = 1;
@@ -833,19 +903,6 @@
             this.cb_itemsc_5.UseVisualStyleBackColor = true;
             this.cb_itemsc_5.CheckedChanged += new System.EventHandler(this.cb_itemsc_5_CheckedChanged);
             // 
-            // cb_Skill_Enable
-            // 
-            this.cb_Skill_Enable.AutoSize = true;
-            this.cb_Skill_Enable.Location = new System.Drawing.Point(24, 33);
-            this.cb_Skill_Enable.Name = "cb_Skill_Enable";
-            this.cb_Skill_Enable.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.cb_Skill_Enable.Size = new System.Drawing.Size(72, 20);
-            this.cb_Skill_Enable.TabIndex = 39;
-            this.cb_Skill_Enable.Text = "Enable";
-            this.cb_Skill_Enable.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.cb_Skill_Enable.UseVisualStyleBackColor = true;
-            this.cb_Skill_Enable.CheckedChanged += new System.EventHandler(this.cb_Skill_Enable_CheckedChanged);
-            // 
             // cb_Item_Enable
             // 
             this.cb_Item_Enable.AutoSize = true;
@@ -859,54 +916,23 @@
             this.cb_Item_Enable.UseVisualStyleBackColor = true;
             this.cb_Item_Enable.CheckedChanged += new System.EventHandler(this.cb_Item_Enable_CheckedChanged);
             // 
-            // cb_Shop_Enable
+            // tabControl1
             // 
-            this.cb_Shop_Enable.AutoSize = true;
-            this.cb_Shop_Enable.Location = new System.Drawing.Point(21, 30);
-            this.cb_Shop_Enable.Name = "cb_Shop_Enable";
-            this.cb_Shop_Enable.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.cb_Shop_Enable.Size = new System.Drawing.Size(72, 20);
-            this.cb_Shop_Enable.TabIndex = 40;
-            this.cb_Shop_Enable.Text = "Enable";
-            this.cb_Shop_Enable.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.cb_Shop_Enable.UseVisualStyleBackColor = true;
-            this.cb_Shop_Enable.CheckedChanged += new System.EventHandler(this.cb_Shop_Enable_CheckedChanged);
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Enabled = false;
-            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(852, 428);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(100, 24);
-            this.checkBox1.TabIndex = 3;
-            this.checkBox1.Text = "Self Cast";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Enabled = false;
-            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(716, 428);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.checkBox2.Size = new System.Drawing.Size(114, 24);
-            this.checkBox2.TabIndex = 4;
-            this.checkBox2.Text = "Quick Cast";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl1.Location = new System.Drawing.Point(0, 0);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(990, 496);
+            this.tabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            this.tabControl1.TabIndex = 5;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(990, 464);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
+            this.ClientSize = new System.Drawing.Size(990, 496);
+            this.Controls.Add(this.tabControl1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
@@ -914,20 +940,45 @@
             this.Name = "Form1";
             this.Text = "Windy Helper Config";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.tabControl1.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.CheckBox cb_Item_Enable;
+        private System.Windows.Forms.CheckBox cb_itemsc_5;
+        private System.Windows.Forms.CheckBox cb_itemqc_5;
+        private System.Windows.Forms.Button item_5;
+        private System.Windows.Forms.CheckBox cb_itemsc_4;
+        private System.Windows.Forms.CheckBox cb_itemqc_4;
+        private System.Windows.Forms.Button item_4;
+        private System.Windows.Forms.CheckBox cb_itemsc_1;
+        private System.Windows.Forms.CheckBox cb_itemqc_1;
+        private System.Windows.Forms.Button item_1;
+        private System.Windows.Forms.CheckBox cb_itemsc_0;
+        private System.Windows.Forms.CheckBox cb_itemqc_0;
+        private System.Windows.Forms.Button item_0;
+        private System.Windows.Forms.CheckBox cb_itemsc_3;
+        private System.Windows.Forms.CheckBox cb_itemqc_3;
+        private System.Windows.Forms.Button item_3;
+        private System.Windows.Forms.CheckBox cb_itemsc_2;
+        private System.Windows.Forms.CheckBox cb_itemqc_2;
+        private System.Windows.Forms.Button item_2;
+        private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.CheckBox cb_Skill_Enable;
         private System.Windows.Forms.CheckBox cb_skillsc_11;
         private System.Windows.Forms.CheckBox cb_skillqc_11;
         private System.Windows.Forms.Button skill_11;
@@ -964,7 +1015,9 @@
         private System.Windows.Forms.CheckBox cb_skillsc_4;
         private System.Windows.Forms.CheckBox cb_skillqc_4;
         private System.Windows.Forms.Button skill_4;
+        private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.CheckBox cb_Shop_Enable;
         private System.Windows.Forms.Button shop_11;
         private System.Windows.Forms.Button shop_10;
         private System.Windows.Forms.Button shop_9;
@@ -977,30 +1030,7 @@
         private System.Windows.Forms.Button shop_6;
         private System.Windows.Forms.Button shop_5;
         private System.Windows.Forms.Button shop_4;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.CheckBox cb_itemsc_5;
-        private System.Windows.Forms.CheckBox cb_itemqc_5;
-        private System.Windows.Forms.Button item_5;
-        private System.Windows.Forms.CheckBox cb_itemsc_4;
-        private System.Windows.Forms.CheckBox cb_itemqc_4;
-        private System.Windows.Forms.Button item_4;
-        private System.Windows.Forms.CheckBox cb_itemsc_1;
-        private System.Windows.Forms.CheckBox cb_itemqc_1;
-        private System.Windows.Forms.Button item_1;
-        private System.Windows.Forms.CheckBox cb_itemsc_0;
-        private System.Windows.Forms.CheckBox cb_itemqc_0;
-        private System.Windows.Forms.Button item_0;
-        private System.Windows.Forms.CheckBox cb_itemsc_3;
-        private System.Windows.Forms.CheckBox cb_itemqc_3;
-        private System.Windows.Forms.Button item_3;
-        private System.Windows.Forms.CheckBox cb_itemsc_2;
-        private System.Windows.Forms.CheckBox cb_itemqc_2;
-        private System.Windows.Forms.Button item_2;
-        private System.Windows.Forms.CheckBox cb_Skill_Enable;
-        private System.Windows.Forms.CheckBox cb_Shop_Enable;
-        private System.Windows.Forms.CheckBox cb_Item_Enable;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.TabControl tabControl1;
     }
 }
 

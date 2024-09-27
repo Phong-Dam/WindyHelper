@@ -319,7 +319,7 @@ namespace Input {
 			}
 		}
 		//QuickCast
-		if (Game::IsInGame() && !Game::IsChat() && Game::IsWindowActive() && Jass::GetLocalPlayer()) {
+		if (Game::IsInGame() && !Game::IsChat() && Game::IsWindowActive()) {
 			bool NeedSkip = false;
 			if (Msg == WM_KEYDOWN || Msg == WM_XBUTTONDOWN || Msg == WM_MBUTTONDOWN ||
 				Msg == WM_SYSKEYDOWN)
@@ -336,18 +336,15 @@ namespace Input {
 					wParam = VK_MBUTTON;
 				}
 				//QC
-				if (skill_Enable == true) {
-
-				}
 				for (int i = 0; i < 18; i++) {
-					if (wParam == QC[i] && QC[i]!=27)
+					if (wParam == QC[i] && QC[i] != 27)
 					{
 						if (i < 12)
 						{
 							int btnid = GetAltBtnID(i);
-							if (CheckBtnForQc(GetSkillPanelButton(btnid)) && skill_Enable==true) {
+							if (CheckBtnForQc(GetSkillPanelButton(btnid)) && skill_Enable == true) {
 								PressSkillPanelButton(btnid, 0);
-								if (isQC[i]==1)
+								if (isQC[i] == 1)
 									JustClickMouse();
 								if (isSelfClick[i] == 1)
 									War3ClickF1();
@@ -357,15 +354,15 @@ namespace Input {
 						else if (!(lParam & 0x40000000))
 						{
 							int btnid = GetAltBtnID(i);
-							if (CheckBtnForQc(GetItemPanelButton(btnid)) && item_Enable==true) {
+							if (CheckBtnForQc(GetItemPanelButton(btnid)) && item_Enable == true) {
 								PressItemPanelButton(btnid, 0);
-								if (isQC[i]==1)
+								if (isQC[i] == 1)
 									JustClickMouse();
 								if (isSelfClick[i] == 1)
 									War3ClickF1();
 								NeedSkip = true;
 							}
-						}	
+						}
 					}
 				}
 				//

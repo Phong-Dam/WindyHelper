@@ -1,0 +1,10 @@
+C:\Users\phong\Desktop\Warcraft-Tools\Release\Config.exe.config
+C:\Users\phong\Desktop\Warcraft-Tools\Release\Config.exe
+C:\Users\phong\Desktop\Warcraft-Tools\Release\Config.pdb
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\Config\obj\Release\Config.csproj.AssemblyReference.cache
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\Config\obj\Release\Config.Form1.resources
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\Config\obj\Release\Config.Properties.Resources.resources
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\Config\obj\Release\Config.csproj.GenerateResource.cache
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\Config\obj\Release\Config.csproj.CoreCompileInputs.cache
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\Config\obj\Release\Config.exe
+C:\Users\phong\Desktop\Warcraft-Tools\WindyHelper\Config\obj\Release\Config.pdb
